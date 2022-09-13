@@ -1,0 +1,78 @@
+.inputDataContainer {
+    overflow: auto;
+    min-height: 300px;
+    padding: 30px;
+    border-radius: 5px;
+    color: #242424;
+    font-size: 18px;
+  }
+
+  .inputdata-form {
+    padding: 40px;
+  }
+
+  .title {
+    margin-left: 20px;
+  }
+.form-group{
+  margin: 5px;
+}
+  .form-control-long {
+    margin: 20px 0;
+    margin-left: 10px;
+  }
+
+  .form-control-long label {
+    display: block;
+    margin-left: 10px;
+  }
+  
+  .form-control-long input {
+    width: 100%;
+    height: 40px;
+    margin: 5px;
+    padding: 3px 7px;
+    font-size: 17px;
+  }
+
+  .form-row {
+    display: flex;
+  }
+  
+  .form-control {
+    margin: 20px 0;
+    margin-right: auto;
+    border: none;
+  }
+
+  .form-control label {
+    display: block;
+    margin-left: 10px;
+  }
+  
+  .form-control input {
+    width: 450px;
+    height: 40px;
+    margin: 5px;
+    padding: 3px 7px;
+    font-size: 17px;
+  }
+
+  .form-control-select {
+    margin: 20px 0;
+    margin-right: auto;
+    
+  }
+
+  .form-control-select label {
+    display: block;
+    margin-left: 10px;
+  }
+
+  .form-control-select select {
+    width: 450px;
+    height: 40px;
+    margin: 5px;
+    padding: 3px 7px;
+    font-size: 17px;
+  }

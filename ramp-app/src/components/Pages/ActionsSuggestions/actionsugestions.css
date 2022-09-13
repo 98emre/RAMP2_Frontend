@@ -1,0 +1,17 @@
+
+.list-group-suggestion{
+    position: fixed;
+    left: 85%;
+}
+@media screen and (max-width: 991px) {
+    .list-group-suggestion{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .list-group-suggestion{
+        display: none;
+    }
+}
