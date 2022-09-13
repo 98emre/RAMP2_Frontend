@@ -1,0 +1,101 @@
+.list-group-item{
+    background-color: #242424;
+    color: white;
+    font-size:0.735vw;
+    font-weight: bold;
+    border-top: 5px solid #0d6efd;
+    text-align: left;
+}
+
+.list-group-item:hover{
+    background-color: #0d6efd;
+    color: white;
+}
+.list-group{
+    width: 200px;
+    top: 30%;
+    position: sticky;
+}
+
+@media screen and (max-width: 991px) {
+    .list-group{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .list-group{
+        display: none;
+    }
+}
+
+.card{
+    box-shadow: 2px 2px 2px black;
+}
+
+h5{color: #0d6efd;
+}
+select{
+    color: black;
+    font-weight: bold;
+    padding: 1vh;
+    margin-top: 20px;
+    border:2px solid black;
+    border-radius: 5px;
+}
+.form-control{
+    margin-top: 20px;
+}
+option{
+    font-weight: bold;
+}
+.commentRow{
+    width: 400px;
+}
+.comment{
+    width: 150px;
+}
+.btnSave{
+    margin-bottom: 50px;
+    outline: none;
+    font-weight: bold;
+    z-index: 2;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+}
+.btnSave:hover{
+    background-color: #0d6efd;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-7px);
+}
+.btn{
+    font-weight: bold;
+}
+#top {
+    border: 1px solid black;
+    height: 900px;
+    width: 80%;
+    position: absolute;
+  }
+  
+  .button {
+    border: none;
+    color: white;
+    top:10px;
+    bottom: 100px;
+    font-size: 16px;
+    margin-left: 0px;
+    cursor: pointer;
+    padding: 10px 24px;
+    position: sticky;
+    box-shadow: 1px 1px rgba(36, 36, 36, 0.3);
+  }
+  
+  #bottom {
+    border: 1px solid black;
+    height: 900px;
+    width: 80%;
+    top: 910px;
+    position: relative;
+  }
