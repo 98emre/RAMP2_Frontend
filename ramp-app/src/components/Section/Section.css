@@ -1,0 +1,132 @@
+.home__hero-section {
+    color: #fff;
+    padding: 100px 0;
+}
+
+.home__hero-row {
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+.col {
+    margin-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 100%;
+    flex-basis: 50%;
+}
+
+.home__hero-text-wrapper {
+    max-width: 1000px;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
+.top-line {
+    color: #1954A6;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    margin-bottom: 16px;
+}
+
+.heading {
+    margin-bottom: 24px;
+    font-size: 30px;
+    line-height: 1.1;
+    font-weight: 600;
+    color: #f7f8fa;
+}
+
+.dark {
+    color: #242424;
+}
+
+.darkBg {
+    background-color: #242424;
+}
+
+.home__hero-subtitleimg {
+    max-width: 1000px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.home__hero-subtitle {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.home__hero-img {
+    max-width: 100%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .home__hero-img {
+        margin-top: 100px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .home__hero-text-wrapper {
+        padding-bottom: 65px;
+    }
+
+    .col {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+
+    .home__hero-img {
+        margin-top: 100px;
+    }
+
+}
+
+.col-6 {
+    text-align: center;
+    padding: 5vh;
+}
+
+.col-4 {
+    padding: 2rem;
+}
+
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .slideIn {
+    animation: 1s ease-out 0s 1 slideInLeft;
+  }

@@ -1,0 +1,16 @@
+.backToTop {
+    width: 100%;
+    text-align: center;
+    bottom: 0px;
+    font-size: 3rem;
+    font-weight: bold;
+    z-index: 50;
+    cursor: pointer;
+    color: #1954A6;
+    transition: all 0.3s ease 0s;
+}
+
+.backToTop:hover {
+    color: #0d6efd;
+    transform: translateY(-7px);
+}
