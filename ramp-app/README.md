@@ -3,6 +3,9 @@ We have developed a web application that processes an XML file containing instru
 
 This our web appliction where we used React with Redux and hooks for frontend.
 
+## Application Video 
+**Link:** [https://youtu.be/_CpSawlJU_w?si=M8xv66CoDlDNYa45](https://www.youtube.com/watch?v=1ZNFznIgsFw&ab_channel=Emre)
+
 ## Frontend Technology Stack
 
 Our web application is built using React, utilizing Redux for state management and leveraging hooks for an optimized user interface.
@@ -42,9 +45,6 @@ To build the application for production and generate optimized assets in the `bu
 This process minifies the code and includes unique hashes in filenames for optimal performance. Your app will be ready for deployment.
 
 For detailed deployment instructions, please refer to the [deployment documentation](https://facebook.github.io/create-react-app/docs/deployment).
-
-## Application Video 
-**Link:** [https://youtu.be/_CpSawlJU_w?si=M8xv66CoDlDNYa45](https://www.youtube.com/watch?v=1ZNFznIgsFw&ab_channel=Emre)
 
 ### Ejecting
 
