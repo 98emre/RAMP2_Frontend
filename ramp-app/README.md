@@ -43,6 +43,9 @@ This process minifies the code and includes unique hashes in filenames for optim
 
 For detailed deployment instructions, please refer to the [deployment documentation](https://facebook.github.io/create-react-app/docs/deployment).
 
+## Application Video 
+**Link:** [https://youtu.be/_CpSawlJU_w?si=M8xv66CoDlDNYa45](https://www.youtube.com/watch?v=1ZNFznIgsFw&ab_channel=Emre)
+
 ### Ejecting
 
 **Note: Ejecting is a one-way operation. Once you eject, you can't go back!**
@@ -64,8 +67,11 @@ We hope you find this documentation helpful in developing and maintaining the RA
 
 # Author 
 Emre Demirel @98emre
+
 Mohammed Hosin @hosin
+
 Johan Lindqvist @jonlin7 
+
 Jonathan Hultin @jhulti
 
 
