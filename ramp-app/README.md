@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# RAMP2 Frontend
+We have developed a web application that processes an XML file containing instructions for RAMP 2, which is an assessment tool designed for a detailed analysis and evaluation of ergonomic risk factors related to manual material handling tasks. These tasks can increase the risk of musculoskeletal disorders. Manual material handling includes activities such as lifting, pushing, or pulling objects manually. Prolonged or frequent exposure to these risk factors can increase the likelihood of developing or exacerbating musculoskeletal disorders.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This our web appliction where we used React with Redux and hooks for frontend.
 
-## Available Scripts
+## Frontend Technology Stack
 
-In the project directory, you can run:
+Our web application is built using React, utilizing Redux for state management and leveraging hooks for an optimized user interface.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project was initialized with [Create React App](https://github.com/facebook/create-react-app).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
 
-### `npm test`
+Before diving into development, make sure you have npm installed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `npm run build`
+In the project directory, run:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This will install all the necessary dependencies.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Development Mode
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To start the application in development mode, run:
 
-### `npm run eject`
+This will launch the app, and you can access it in your browser at [http://localhost:3000](http://localhost:3000). The page will automatically reload whenever you make changes, and any lint errors will be displayed in the console.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Running Tests
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To execute tests in interactive watch mode, use:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+For more information on running tests, refer to the [testing documentation](https://facebook.github.io/create-react-app/docs/running-tests).
+
+### Building for Production
+
+To build the application for production and generate optimized assets in the `build` folder, use:
+
+
+This process minifies the code and includes unique hashes in filenames for optimal performance. Your app will be ready for deployment.
+
+For detailed deployment instructions, please refer to the [deployment documentation](https://facebook.github.io/create-react-app/docs/deployment).
+
+### Ejecting
+
+**Note: Ejecting is a one-way operation. Once you eject, you can't go back!**
+
+If you find yourself dissatisfied with the build tool and configuration choices provided by Create React App, you can choose to eject at any time. Ejecting copies all configuration files and transitive dependencies (such as webpack, Babel, ESLint, etc.) into your project, granting you full control over them. 
+While all commands except `eject` will still work, they will now point to the copied scripts for customization. However, it's essential to consider that the curated feature set is well-suited for small to mid-sized deployments, 
+and you may not need to eject unless you require extensive customization.
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To delve deeper into React and its usage, explore the [React documentation](https://reactjs.org/). Additionally, you can refer to the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started) for more information on this project's structure and advanced configurations.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+For topics such as code splitting, analyzing bundle size, creating progressive web apps, advanced configurations, and troubleshooting, please check the corresponding sections in the [Create React App documentation](https://facebook.github.io/create-react-app/docs).
 
-### Code Splitting
+Should you encounter issues related to minification during the build process, consult the troubleshooting section on [minification](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+We hope you find this documentation helpful in developing and maintaining the RAMP2 Frontend. If you have any further questions or need assistance, please don't hesitate to reach out to our team.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Author 
+Emre Demirel @98emre
+Mohammed Hosin @hosin
+Johan Lindqvist @jonlin7 
+Jonathan Hultin @jhulti
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
